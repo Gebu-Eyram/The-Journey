@@ -1,0 +1,62 @@
+.logo{
+    color: #D1C4E9;
+    font-size: 25px;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{
+    color: #D1C4E9;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: all 0.5s ease-in;
+
+
+}
+.home{
+    background-color: #D1C4E9;
+    color: rgb(26, 35, 126);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a:hover{
+    background-color: #D1C4E9;
+    color: rgb(26, 35, 126);
+    padding: 10px;
+    border-radius: 20px;
+}
+.mheader{
+    flex: 1;
+    margin-left: 50px;
+    display: flex;
+    align-self: center;
+}
+.search-bar{
+    flex: 1;
+    max-width: 700px;
+    background-color: rgb(11, 16, 77);
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.search-bar input{
+    background: none;
+    border: 0;
+    outline: 0;
+    color: #D1C4E9;
+}
+::placeholder{
+    color: #D1C4E9;
+    
+}
+
