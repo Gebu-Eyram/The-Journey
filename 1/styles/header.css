@@ -1,0 +1,98 @@
+header{
+    background-color: #03DAC5;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.other-part{
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+    flex: 1;
+    margin: 0 20px;
+    padding: 10px;
+    border: black solid 0.2px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 15px;
+    font-size: 17px;
+}
+form input{
+    background: none;
+    border: 0;
+    outline: none;
+    color: black;
+    padding-left: 30PX;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder{
+    font-size: 17px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+img{
+    height: 30px;
+    stroke: white;
+    cursor: pointer;
+}
+img:hover{
+opacity: 0.8;
+
+}
+.buttons{
+    margin: 0 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.button img{
+    margin: 0 5px 5px 0;
+    
+}
+.hamburger{
+    display: none;
+    display: flex;
+    flex-direction: column;
+}
+.hamburger .line{
+    display: none;
+    width: 30px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: black;
+}
+
+@media only screen and (max-width : 820px) {
+    .buttons, form{
+        display: none;
+    }
+   
+    .hamburger .line{
+        display: block;
+    
+    }
+    header{
+        justify-content: space-between;
+    }
+}
+
